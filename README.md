@@ -29,14 +29,21 @@ It allows users to:
 ```bash
 git clone https://github.com/your-username/readability-analyzer.git
 cd readability-analyzer
+
 2. Create a virtual environment
+
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
+
 3. Install dependencies
+
 pip install -r requirements.txt
+
 4. Run the app
+
 streamlit run app.py
+
 ⚙️ Configuration
 
 This app requires a JWT secret key for token generation.
